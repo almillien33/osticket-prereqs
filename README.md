@@ -57,6 +57,6 @@ Now open Microsoft Edge in the VM and paste this link in the address bar, and on
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Afterwards, go to the start menu and open Control Panel by searching for it. Then look for programs and select the uninstall program link. After that, select the Turn Windows Features On and Off link, and check off IIS ( Internet Information Services) in the list and expand it. Then expand World Wide Web Services, and expand Application Development Features right after that, check off CGI, and select ok.
 </p>
 <br />
