@@ -49,7 +49,7 @@ Next, simply connect to your VM you just created using RDP (remote desktop proto
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now open Microsoft Edge in the VM and paste this link in the address bar https://docs.google.com/document/d/1DyjX8LeVU98LjhXO2t2K2F0aHywI2N9GD57T3taO5qo/edit?tab=t.0
+Now open Microsoft Edge in the VM and paste this link in the address bar, and once opened, download the link. That link will provide you with the osTicket installation files. https://docs.google.com/document/d/1Y5j7aml8LVDBH7Ne5szGkyX-FL3aLdeT5a2UAsFAesg/edit?tab=t.0 
 </p>
 <br />
 
