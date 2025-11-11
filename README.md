@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install HeidiSQL
 
 <h2>Installation Steps</h2>
-hi
+Welcome to my first in-depth IT tutorial! To begin this lab, you first have to create a virtual machine using Microsoft Azure (https://azure.microsoft.com)
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
