@@ -70,3 +70,12 @@ Afterwards, go to the start menu and open Control Panel by searching for it. The
 
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+
+
+Next, you have to create a folder named PHP within the (C:) drive of the VM. Then, from the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder you just created.
+
+
+
+
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
