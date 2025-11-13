@@ -95,3 +95,12 @@ Then from the osTicket-Installation-Files folder, install VC_redist.x86.exe and 
 </p>
 <p>
 Once MYSQL is launched, hit next and select Standard Configuration, and hit next after that. Afterwards, for the username and password, set it as root for both and select next, and then execute.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Now open IIS as an Admin from the Start menu by searching for it. Within IIS, select the PHP manager icon and then select the Register New PHP version link. Now within the pop up click on the three dots on the right to browse the file explorer and look select the PHP Folder you created in the (C:) drive, select php-cgi.exe, and select ok.
