@@ -85,7 +85,7 @@ Next, you have to create a folder named PHP within the (C:) drive of the VM. The
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Then from the osTicket-Installation-Files folder, install VC_redist.x86.exe and MySQL 5.5.62. When you're installing MySQL server, select Typical for Choose My Setup type and then Install and select the option to launch MySQL.
+Then, from the osTicket-Installation-Files folder, install VC_redist.x86.exe and MySQL 5.5.62. When you're installing MySQL server, select Typical for Choose My Setup type and then Install and select the option to launch MySQL.
 
 </p>
 <br />
@@ -103,4 +103,24 @@ Once MYSQL is launched, hit next and select Standard Configuration, and hit next
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-Now open IIS as an Admin from the Start menu by searching for it. Within IIS, select the PHP manager icon and then select the Register New PHP version link. Now within the pop up click on the three dots on the right to browse the file explorer and look select the PHP Folder you created in the (C:) drive, select php-cgi.exe, and select ok.
+Now open IIS as an Admin from the Start menu by searching for it. Within IIS, select the PHP manager icon and then select the Register New PHP version link. Now, within the pop-up, click on the three dots on the right to browse the file explorer and select the PHP Folder you created in the (C:) drive, select php-cgi.exe, and select ok. Next, open IIS Manager and stop and start the server.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+After that, from the osTicket- Installation files folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” and within “c:\inetpub\wwwroot”, rename upload to osTicket exactly how it's written here. Now, once again, open IIS Manager as an administrator if you closed the program, and stop and start the server to restart it.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right, click “Browse *:80”. Then go back to IIS, sites -> Default -> osTicketDouble-click PHP Manager Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache. Refresh the osTicket site in your browser, and observe the changes.
+
+
