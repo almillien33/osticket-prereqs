@@ -123,4 +123,11 @@ After that, from the osTicket- Installation files folder, unzip “osTicket-v1.1
 <p>
 Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right, click “Browse *:80”. Then go back to IIS, sites -> Default -> osTicketDouble-click PHP Manager Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache. Refresh the osTicket site in your browser, and observe the changes.
 
+</p>
+<br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Next, open up File Explorer, go to the (C:) drive -> inetpub -> wwwwroot -> osTicket -> include -> ost-sampleconfig.php, and rename it to ost-config.php exactly like how it's written. Then right-click ost-config.php and select properties -> security -> advanced, and select Disable inheritance icon, and select remove all inherited permissions from this object option 
