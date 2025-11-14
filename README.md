@@ -130,4 +130,6 @@ Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <p>
-Next, open up File Explorer, go to the (C:) drive -> inetpub -> wwwwroot -> osTicket -> include -> ost-sampleconfig.php, and rename it to ost-config.php exactly like how it's written. Then right-click ost-config.php and select properties -> security -> advanced, and select Disable inheritance icon, and select remove all inherited permissions from this object option 
+Next, open up File Explorer, go to the (C:) drive -> inetpub -> wwwwroot -> osTicket -> include -> ost-sampleconfig.php, and rename it to ost-config.php exactly like how it's written. Then right-click ost-config.php and select properties -> security -> advanced, and select Disable inheritance -> remove all -> New Permissions -> Everyone -> All
+
+
