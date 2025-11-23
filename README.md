@@ -132,4 +132,35 @@ Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right
 <p>
 Next, open up File Explorer, go to the (C:) drive -> inetpub -> wwwwroot -> osTicket -> include -> ost-sampleconfig.php, and rename it to ost-config.php exactly like how it's written. Then right-click ost-config.php and select properties -> security -> advanced, and select Disable inheritance -> remove all -> New Permissions -> Everyone -> All
 
+</p>
+<br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Continue setting up osTicket in the browser (click Continue). Put down whatever you want for the name and default email. Then, for the Username, put adminuser, and for the password, put Password1.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+From the “osTicket-Installation-Files” folder, install HeidiSQL. Open Heidi SQL, create a new session, set root/root for username and password, connect to the session, and create a database called “osTicket”.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+Continue setting up osTicket in the browser. MySQL Database: osTicketMySQL, Username: rootMySQL, Password: root, Click “Install Now!”.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
