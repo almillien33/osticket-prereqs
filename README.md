@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install HeidiSQL
 
 <h2>Installation Steps</h2>
-Welcome to my first in-depth IT tutorial! To begin this lab, you first have to create a virtual machine using the free trial of Microsoft Azure (https://azure.microsoft.com). We will be using a VM (virtual machine), which is a remote computer on a server. We are using a VM in order to safely run different operating systems on one computer and to test software in a safe environment. When you create the VM, name the resource group osticket and VM name osticket-vm and set the region to East US 2. Then set the username to labuser with the password as osTicketPassword1! Afterwards, for the image use Windows 10 or 11 with about 2-4 CPUs. In this example, I will be using 4 CPUs.
+Welcome to my first in-depth IT tutorial! To begin this lab, you first have to create a virtual machine using the free trial of Microsoft Azure (https://azure.microsoft.com). We will be using a VM (virtual machine), which is a remote computer on a server. We are using a VM in order to safely run different operating systems on one computer and to test software in a safe environment. When you create the VM, name the resource group osticket and VM name osticket-vm and set the region to East US 2. Then set the username to labuser with the password as osTicketPassword1! Afterwards, for the image use Windows 10 with about 2-4 CPUs. In this example, I will be using 4 CPUs.
 
 
 <p>
