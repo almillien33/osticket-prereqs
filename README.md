@@ -37,7 +37,7 @@ Welcome to my first in-depth IT tutorial! To begin this lab, you first have to c
 
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="2558" height="1308" alt="image" src="https://github.com/user-attachments/assets/a503b7ee-7ee1-49f1-a166-5ba66943d6ca" />
 </p>
 <p>
 Next, simply connect to your VM you just created using RDP (remote desktop protocol) using the IPV4 address of the VM and enter labuser for the username and osTicketPassword1! for the password. If you're using a Mac, you have to download Microsoft RDP from the App Store.
