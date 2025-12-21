@@ -55,16 +55,16 @@ Now open Microsoft Edge in the VM and paste this link in the address bar, and on
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1472" height="846" alt="image" src="https://github.com/user-attachments/assets/d7ab31b4-997b-4731-8f35-6752ba1101ed" />
 </p>
 <p>
-Afterwards, go to the start menu and open Control Panel by searching for it. Then look for programs and select the uninstall program link. After that, select the Turn Windows Features On and Off link, and check off IIS ( Internet Information Services) in the list and expand it. Then expand World Wide Web Services, and expand Application Development Features right after that, check off CGI, and select ok.
+Afterwards, go to the start menu and open Control Panel by searching for it. Then look for programs and select the uninstall program link. After that, select the Turn Windows Features On and Off link, and check off IIS ( Internet Information Services) in the list and expand it. Then expand World Wide Web Services, and expand Application Development Features right after that, check CGI, and select ok.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1245" height="715" alt="image" src="https://github.com/user-attachments/assets/88add05b-0b0d-49a0-926c-ed54ebb448a9" />
 </p>
 <p>
  Now, open the osTicket installation files folder and install the PHP Manager for IIS. And from the same folder, install the Rewrite Module.
@@ -73,7 +73,7 @@ Afterwards, go to the start menu and open Control Panel by searching for it. The
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="501" height="416" alt="image" src="https://github.com/user-attachments/assets/128aeeaa-df94-4183-92bb-7c30a5775650" />
 </p>
 <p>
 Next, you have to create a folder named PHP within the (C:) drive of the VM. Then, from the osTicket-Installation-Files folder, unzip PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder you just created.
@@ -82,7 +82,7 @@ Next, you have to create a folder named PHP within the (C:) drive of the VM. The
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1185" height="712" alt="image" src="https://github.com/user-attachments/assets/a111bcf0-67a5-4d39-b537-9a9ce57cbdeb" />
 </p>
 <p>
 Then, from the osTicket-Installation-Files folder, install VC_redist.x86.exe and MySQL 5.5.62. When you're installing MySQL server, select Typical for Choose My Setup type and then Install and select the option to launch MySQL.
@@ -91,16 +91,16 @@ Then, from the osTicket-Installation-Files folder, install VC_redist.x86.exe and
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="1628" height="664" alt="image" src="https://github.com/user-attachments/assets/86e68498-d1e5-49e2-b7c8-d4d829d3a54d" /> 
 </p>
 <p>
-Once MYSQL is launched, hit next and select Standard Configuration, and hit next after that. Afterwards, for the username and password, set it as root for both and select next, and then execute.
+Once MYSQL is launched, hit next and select Standard Configuration, and hit next after that. Afterwards, hit next for the third window and for the username and password, set it as root for both and select next, and then execute.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="515" height="394" alt="image" src="https://github.com/user-attachments/assets/3aa7098e-c05e-4ec4-8794-849b598dc975" />
 </p>
 <p>
 Now open IIS as an Admin from the Start menu by searching for it. Within IIS, select the PHP manager icon and then select the Register New PHP version link. Now, within the pop-up, click on the three dots on the right to browse the file explorer and select the PHP Folder you created in the (C:) drive, select php-cgi.exe, and select ok. Next, open IIS Manager and stop and start the server.
