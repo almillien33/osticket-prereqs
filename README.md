@@ -121,31 +121,31 @@ After that, from the osTicket- Installation files folder, unzip “osTicket-v1.1
 <img width="1128" height="636" alt="image" src="https://github.com/user-attachments/assets/99d041a0-6ca3-4371-8e7b-cd87f6aad7ce" />
 </p>
 <p>
-Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right, click “Browse *:80”. Then go back to IIS, sites -> Default -> osTicket Double-click PHP Manager Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache. Refresh the osTicket site in your browser, and observe the changes.
+Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right, after you click osTicket, click “Browse *:80”. Then go back to IIS, sites -> Default -> osTicket Double-click PHP Manager Click “Enable or disable an extension” Enable: php_imap.dll, Enable: php_intl.dll, and Enable: php_opcache. Refresh the osTicket site in your browser, and observe the changes.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="2556" height="1372" alt="image" src="https://github.com/user-attachments/assets/1797fa6a-f19e-4e77-8f19-038aedff7933" />
 </p>
 <p>
-Next, open up File Explorer, go to the (C:) drive -> inetpub -> wwwwroot -> osTicket -> include -> ost-sampleconfig.php, and rename it to ost-config.php exactly like how it's written. Then right-click ost-config.php and select properties -> security -> advanced, and select Disable inheritance -> remove all -> New Permissions -> Everyone -> All
+Next, open up File Explorer, go to the (C:) drive -> inetpub -> wwwwroot -> osTicket -> include -> ost-sampleconfig.php, and rename it to ost-config.php exactly like how it's written. Then right-click ost-config.php and select properties -> security -> advanced, and select Disable inheritance -> remove all -> principal -> Everyone -> Full Control -> apply -> OK
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="766" height="521" alt="image" src="https://github.com/user-attachments/assets/6c792738-594c-4bf4-9193-709311308abe" />
 </p>
 <p>
-Continue setting up osTicket in the browser (click Continue). Put down whatever you want for the name and default email. Then, for the Username, put adminuser, and for the password, put Password1.
+Continue setting up osTicket in the browser (click Continue). Put down whatever you want for the helpdesk name and default email. Then, for the Username, put adminuser, and for the password, put Password1, but you're not done yet, so don't hit install.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="2560" height="1407" alt="image" src="https://github.com/user-attachments/assets/77cb2127-0392-403c-87c9-fdb673228c4f" /> 
 </p>
 <p>
 From the “osTicket-Installation-Files” folder, install HeidiSQL. Open Heidi SQL, create a new session, set root/root for username and password, connect to the session, and create a database called “osTicket”.
@@ -154,13 +154,14 @@ From the “osTicket-Installation-Files” folder, install HeidiSQL. Open Heidi 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="1729" height="636" alt="image" src="https://github.com/user-attachments/assets/c5c012f8-21d0-4ef3-8457-21bde939bce1" />
 </p>
 <p>
-Continue setting up osTicket in the browser. MySQL Database: osTicketMySQL, Username: rootMySQL, Password: root, Click “Install Now!”. Congratulations, hopefully it is installed with no errors!
+Continue setting up osTicket in the browser. MySQL Database: osTicket, Username: root, Password: root, Click “Install Now!”. Congratulations, hopefully it is installed with no errors!
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="2560" height="1399" alt="image" src="https://github.com/user-attachments/assets/7c7766de-3be7-41f9-a4eb-2913b5e67783" />
+
