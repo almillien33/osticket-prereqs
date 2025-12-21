@@ -49,16 +49,16 @@ Next, simply connect to your VM you just created using RDP (remote desktop proto
 <img width="871" height="235" alt="image" src="https://github.com/user-attachments/assets/439f3083-1fed-4c0c-aca6-ea40a34654f5" />
 </p>
 <p>
-Now open Microsoft Edge in the VM and paste this link in the address bar, and once opened, download the link. That link will provide you with the osTicket installation files. https://docs.google.com/document/d/1Y5j7aml8LVDBH7Ne5szGkyX-FL3aLdeT5a2UAsFAesg/edit?tab=t.0 
+Now open Microsoft Edge in the VM and paste this link in the address bar, and once opened, download the link. That link will provide you with the osTicket installation files. https://docs.google.com/document/d/1Y5j7aml8LVDBH7Ne5szGkyX-FL3aLdeT5a2UAsFAesg/edit?tab=t.0 Once the folder is downloaded, put the folder onto the desktop, unzip the folder, and put the original download zip folder in the trash since you will no longer need it. 
 
 </p>
 <br />
 
 <p>
-<img width="1472" height="846" alt="image" src="https://github.com/user-attachments/assets/d7ab31b4-997b-4731-8f35-6752ba1101ed" />
+<img width="735" height="493" alt="image" src="https://github.com/user-attachments/assets/5921f937-8e32-4461-bea1-2dea080a795a" />
 </p>
 <p>
-Afterwards, go to the start menu and open Control Panel by searching for it. Then look for programs and select the uninstall program link. After that, select the Turn Windows Features On and Off link, and check off IIS ( Internet Information Services) in the list and expand it. Then expand World Wide Web Services, and expand Application Development Features right after that, check CGI, and select ok.
+Afterwards, go to the start menu and open Control Panel by searching for it. Then look for programs and select the uninstall program link. After that, select the Turn Windows Features On and Off link, and check IIS ( Internet Information Services) in the list and expand it. Then expand World Wide Web Services, and expand Application Development Features right after that, check CGI, and select ok.
 
 </p>
 <br />
@@ -94,7 +94,7 @@ Then, from the osTicket-Installation-Files folder, install VC_redist.x86.exe and
 <img width="1628" height="664" alt="image" src="https://github.com/user-attachments/assets/86e68498-d1e5-49e2-b7c8-d4d829d3a54d" /> 
 </p>
 <p>
-Once MYSQL is launched, hit next and select Standard Configuration, and hit next after that. Afterwards, hit next for the third window and for the username and password, set it as root for both and select next, and then execute.
+Once MySQL is launched, click Next and select Standard Configuration, then click Next again. Afterwards, hit next for the third window and for the username and password, set it as root for both and select next, and then execute.
 
 </p>
 <br />
@@ -103,25 +103,25 @@ Once MYSQL is launched, hit next and select Standard Configuration, and hit next
 <img width="515" height="394" alt="image" src="https://github.com/user-attachments/assets/3aa7098e-c05e-4ec4-8794-849b598dc975" />
 </p>
 <p>
-Now open IIS as an Admin from the Start menu by searching for it. Within IIS, select the PHP manager icon and then select the Register New PHP version link. Now, within the pop-up, click on the three dots on the right to browse the file explorer and select the PHP Folder you created in the (C:) drive, select php-cgi.exe, and select ok. Next, open IIS Manager and stop and start the server.
+Now open IIS as an Admin from the Start menu by searching for it. Within IIS, select the PHP manager icon and then select the Register New PHP version link. Now, within the pop-up, click on the three dots on the right to browse the file explorer and select the PHP Folder you created in the (C:) drive, select php-cgi.exe, and select ok. Next, go back to IIS Manager and stop and start the server.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="1908" height="1024" alt="image" src="https://github.com/user-attachments/assets/705d09ce-5063-467b-9cfa-7cbab7e2c861" />
 </p>
 <p>
-After that, from the osTicket- Installation files folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot” and within “c:\inetpub\wwwroot”, rename upload to osTicket exactly how it's written here. Now, once again, open IIS Manager as an administrator if you closed the program, and stop and start the server to restart it.
+After that, from the osTicket- Installation files folder, unzip “osTicket-v1.15.8.zip” and paste the “upload” folder into “c:\inetpub\wwwroot” and within “c:\inetpub\wwwroot”, rename upload to osTicket exactly how it's written here. Now, once again, open IIS Manager as an administrator if you closed the program, and stop and start the server to restart it.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img width="1128" height="636" alt="image" src="https://github.com/user-attachments/assets/99d041a0-6ca3-4371-8e7b-cd87f6aad7ce" />
 </p>
 <p>
-Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right, click “Browse *:80”. Then go back to IIS, sites -> Default -> osTicketDouble-click PHP Manager Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache. Refresh the osTicket site in your browser, and observe the changes.
+Furthermore, go back to IIS and go to sites -> Default -> osTicket. On the right, click “Browse *:80”. Then go back to IIS, sites -> Default -> osTicket Double-click PHP Manager Click “Enable or disable an extension” Enable: php_imap.dll Enable: php_intl.dll Enable: php_opcache. Refresh the osTicket site in your browser, and observe the changes.
 
 </p>
 <br />
